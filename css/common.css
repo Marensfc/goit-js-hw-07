@@ -12,3 +12,30 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+/*Task 2*/
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.gallery {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  outline: 5px solid green;
+  border-radius: 5px;
+}
+
+.gallery > li {
+  max-width: 50%;
+  background-color: black;
+  height: 200px;
+}
